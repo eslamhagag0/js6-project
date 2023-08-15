@@ -1,0 +1,154 @@
+nav{
+  position: fixed;
+  top: 0px;
+  left:-230px;
+   /* background-color: #e68285; */
+   width: 230px;
+   overflow-x: hidden;
+}
+header {
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../img/pexels-harrison-haines-3172566.jpg);
+
+  background-size: cover;
+  background-position: center center;
+
+  height: 85vh;
+}
+:root {
+  --main-color: #e68285;
+}
+.dived {
+  width: 1px;
+  height: 500px;
+  background-color: aqua;
+  overflow: hidden;
+}
+.ic::after {
+  content: " open";
+}
+.ic {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.headline {
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+#duration {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../img/pexels-vishnu-r-nair-1105666.jpg);
+
+  background-size: cover;
+  background-position: center center;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+  border: solid 1px rgb(53, 53, 53);
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.icon:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+.form-control {
+  border-radius: 0% !important;
+}
+
+.btn {
+  border-radius: 0% !important;
+}
+
+
+#close {
+  cursor: pointer;
+}
+h1,
+header p {
+  transform: translateX(-17%);
+}
+.headline{
+  color: white;
+  font-weight: 500;
+}
+nav a:hover {
+  color: var(--main-color) !important;
+}
+
+#close:hover{
+  color: var(--main-color) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px)   {
+  .ic::after {
+    content:"";
+  }
+h1{
+  font-size: 70px !important;
+  transform: translateX(0px);
+}
+header p{
+  transform: translateX(0px);
+}
+#detail > div{
+  width: 98% !important;
+}
+#duration> .container{
+width: 98% !important;
+}
+nav{
+  /* font-size: 10px; */
+}
+#detail p{
+  background-color: rgb(114, 112, 112);
+}
+}
+@media screen and (max-width: 1200px) and (min-width:601px)   {
+  .ic::after {
+    content:"";
+  }
+nav{
+  /* font-size: 15px; */
+}
+  h1{
+    font-size: 80px !important;
+    transform: translateX(0px);
+  }
+  header p{
+    transform: translateX(0px);
+  
+  }
+#detail > div{
+  width: 80% !important;
+}
+#duration> .container{
+width: 98% !important;
+}
+}
+
+
+
